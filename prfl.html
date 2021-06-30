@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./imgs/favicon.ico" type="image/x-icon">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- CSS de reset -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- CSS artesanal -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>HEALTH TRACK</title>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>    
+    <main class="container containerConteudo">
+        <header class="p-3 m-0 border-bottom border-dark">
+            <h1 class="display-6 fs-3 text-center text-uppercase p-0 mb-0">Perfil</h1>
+        </header>
+        <div class="col-12 d-flex justify-content-center">
+            <img class="ftPrfl" src="./imgs/dfltPrfl.svg" alt="Foto de perfil do usuário">
+        </div>        
+        <section class="row p-0 m-0 mb-3 text-center text-uppercase">
+            <h2 class="col-12 display-6">João da Silva Sauro</h2>
+            <p class="col-4 fs-2">94 kg</p>
+            <p class="col-4 fs-2">1.69 cm</p>
+            <p class="col-4 fs-2">32 anos</p>
+        </section>
+        <section class="row p-0 m-0 mb-2">
+            <h3 class="col-12 display-6 fs-4 text-uppercase">Conquistas</h3>
+            <div class="col-12 rounded p-3 d-flex justify-content-center cardLinha">
+                <img src="./imgs/bdgDmnd.svg" alt="" class="bsBdg">
+                <img src="./imgs/bdgDlt.svg" alt="" class="bsBdg">
+                <img src="./imgs/bdgRds.svg" alt="" class="bsBdg">
+            </div>
+        </section>        
+        <section class="row p-0 m-0 mb-3">
+            <h3 class="col-12 display-6 fs-4 text-uppercase">BIO</h3>
+            <div class="col-12 p-3 rounded cardLinha">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </section>
+    </main>
+    <!-- Menu de navegação -->
+    <nav class="nav nav-pills nav-justified shadow-sm fixed-bottom">
+        <a class="nav-link" href="index.html" alt="Link de acesso a Home da app"><img src="./imgs/home.svg"></a>
+        <a class="nav-link" href="hstAtv.html" alt="Link de acesso ao Histórico de Atividades"><img src="./imgs/hstAtv.svg"></a>
+        <a class="nav-link" href="ctrlPeso.html" alt="Link de acesso ao Controle de Peso"><img src="./imgs/ctrlPeso.svg"></a>
+        <a class="nav-link" aria-current="page" href="prfl.html" alt="Link de acesso ao Perfil do usuário"><img src="./imgs/prfl.svg"></a>
+    </nav>
+</body>
+</html>

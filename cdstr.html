@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./imgs/favicon.ico" type="image/x-icon">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- CSS de reset -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- CSS artesanal -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>HEALTH TRACK</title>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main class="container">
+        <header class="row d-flex justify-content-center">
+           <img class="col-12 loginHeader" src="./imgs/cdstrHdr.svg" alt="Bem vindo!">
+        </header>
+        <section class="row p-0 mb-3">
+            <form class="col-12 text-uppercase d-grid gap-2">
+                <label for="nmUsr" class="col-12 form-label">Nome</label>
+                <input type="text" class="col-12 form-control" id="nmUsr" placeholder="João da Silva Sauro"></label>
+                <label for="psUsr" class="col-4 form-label">Peso</label>
+                <input type="text" class="col-4 form-control" id="psUsr" placeholder="78 kg"></label>
+                <label for="altUsr" class="col-4 form-label">Altura</label>
+                <input type="text" class="col-4 form-control" id="altUsr" placeholder="1.79 cm"></label>
+                <label for="dtNscUser" class="col-4 form-label">Data de Nascimento</label>
+                <input type="text" class="col-4 form-control" id="dtNscUser" placeholder="DD/MM/AAAA"></label>
+                <label for="mlUsr" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="mlUsr" placeholder="seuemail@dominio.com"></label>
+                <label for="objtvUsr" class="col-12 form-label">Qual o seu objetivo com o Health Track?</label>
+                <select class="form-select" id="objtvUsr">
+                    <option selected>Escolha...</option>
+                    <option value="1">Ganhar músculos</option>
+                    <option value="2">Melhorar meu condicionamento físico</option>
+                    <option value="3">Perder peso</option>
+                </select>
+                <button class="text-uppercase btn btn-primary p-3" type="submit">Me cadastrar!</button>
+            </form>
+        </section>       
+    </main>    
+</body>
+</html>
